@@ -1,0 +1,39 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item 
+        android:id="@+id/addPlayer"
+      	android:orderInCategory="1"
+        android:title="Add Player"
+        android:showAsAction="ifRoom"/>
+    
+    <item 
+        android:id="@+id/delete"
+        android:orderInCategory="2"
+        android:title="Delete"
+        android:showAsAction="ifRoom"/>
+    
+    <item
+        android:id="@+id/defaultPlayers"
+        android:orderInCategory="3"
+        android:title="Default Players"
+        android:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+    
+    <item
+        android:id="@+id/remove_all"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Remove All Players"/>
+    
+    <item
+        android:id="@+id/quit"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Quit"/>
+
+</menu>
